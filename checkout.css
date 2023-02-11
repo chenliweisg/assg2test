@@ -1,0 +1,103 @@
+/*---page layout configuration---*/
+main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h5{
+    margin: 15px 0px;
+}
+
+/*Space between every section*/
+section{
+    margin-bottom: 50px;
+}
+
+/*Delivery-info*/
+.delivery-info .card{
+    background-color: #F8F9F9;
+    border: none;
+}
+
+/*payment-info*/
+.payment-info .card{
+    background-color: #F8F9F9;
+    border: none;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.select-payment i{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+/*Summary*/
+.summary .card{
+    background-color: #F8F9F9;
+    border: none;
+}
+
+.discount{
+    /*display: none !important;*/
+}
+
+.item .card{
+    border: none;
+}
+
+.cart{
+   overflow-y: scroll;
+   height: 183px;
+}
+
+.cart .prod-qty{
+    text-align: right;
+}
+
+.cart h6{
+    font-size: small;
+}
+
+.cart .item{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+@media (max-width: 992px) {
+    .cart .prod-img img{
+        width: 120px;
+    }
+}
+
+@media (max-width: 767px) {  
+    main{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    section{
+        margin-bottom: 25px;
+    }
+
+     /*Cart*/
+     .cart .item{
+        margin-bottom: 25px;
+    }
+}
+
+/*Lottie*/
+#confetti{
+    width: 200px;
+    position: absolute;
+    pointer-events: none;
+    margin-left: 55px;
+}
+
+.hide {
+    display: none;
+}

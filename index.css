@@ -1,0 +1,275 @@
+/*remove container's left & right padding*/
+.container-xl
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*Space between every section*/
+header{
+    padding: 100px 15px;
+}
+
+section
+{
+    padding: 0px 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*---Header---*/
+header
+{
+    background-image: url("https://i.pinimg.com/originals/c5/b8/f2/c5b8f2fb9d1cee516d5e3d1dd56ab5af.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header .row{
+    color: white;
+}
+
+header .btn
+{
+    margin-top: 25px;
+}
+
+header .lottie{
+    display: flex;
+    justify-content: center;
+}
+
+/*---Category---*/
+.category .phone h3
+{
+    text-align: center;
+    background-image: url("https://media.wired.com/photos/62d75d34ddaaa99a1df8e61d/master/pass/Phone-Camera-Webcam-Gear-GettyImages-1241495650.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0px;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+}
+
+.category .phone h3:hover
+{
+    cursor: pointer;
+    color: white;
+    background-image: url("https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-position: center;
+}
+
+.category .accs h3
+{
+    text-align: center;
+    background-image: url("https://www.rd.com/wp-content/uploads/2017/08/Untitled-4phoneaccessories.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0px;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+}
+
+.category .accs h3:hover
+{
+    cursor: pointer;
+    color: white;
+    background-image: url("https://images.pexels.com/photos/3780680/pexels-photo-3780680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Product*/
+.product{
+    padding-top: 0px;
+}
+
+.product .card{
+    border: none;
+}
+
+.product .card img
+{
+    height: 350px;
+    object-fit: contain;
+    border-radius: 15px;
+    background-color: #EBEFF1 ;
+}
+
+.product h3{
+    margin: 20px 0px;
+}
+
+.product .btn{
+    width: 100%;
+}
+
+/*Offer*/
+.offer{
+    padding-bottom: 100px;
+    /*background-image: url("https://cdn.macstories.net/icons1529553323730-1637678091349.png");*/
+    background-image: url("https://wallpaperaccess.com/full/5117562.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.offer .container-xl
+{
+    background-color: #EAF2F8;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px;
+}
+
+/*offer-prod*/
+.offer-prod-img img{
+    max-width: 250px;
+}
+
+.offer-prod-info{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px 20px;
+}
+
+.offer-prod-info h5
+{
+    font-weight: 400;
+}
+
+.offer-prod-info p {
+    margin-bottom: 40px;
+}
+
+.offer-prod-info p i{
+    color: orange;
+}
+
+/*offer-timing*/
+.offer-timing
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.timer .col-md-4 
+{
+    text-align: center;
+}
+
+.timer .col-md-4 p
+{
+    background-color:#1C2833 ;
+    border-radius: 10px;
+    font-size: xx-large;
+    font-weight: 800;
+    padding: 15%;
+    color: white;
+}
+.timer .col-md-4 span{
+    font-weight: 600;
+    font-size: large;
+}
+
+.timer{
+    margin-top: 25px;
+}
+
+
+
+@media (min-width: 1200px) {
+    .container-xl{
+        max-width: 1200px;
+        
+    }
+}
+
+@media (max-width: 992px) {
+    /*Header text layout and styling*/
+    header .row{
+        text-align: center;
+    }
+
+    header .col-sm-12{
+        margin: 30px 0px;
+    }
+
+
+    /*---Category---*/
+    .category .phone{
+        margin-bottom: 100px;
+    }
+
+    /*offer-prod*/
+    .offer-prod{
+        justify-content: space-evenly;
+    }
+    
+    /*offer-timing*/
+    .offer-timing{
+        margin-top: 5%;
+    }
+
+    .offer-timing h5{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: x-large;
+    }
+
+    .offer .container-xl{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .timer .col-md-4 p
+    {
+        margin-left:15%;
+        margin-right:15%;
+        padding: 10%;
+    }
+
+    .timer span{
+        font-size: x-large;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /**/
+    .product .card {
+        padding-bottom: 100px;
+    }
+
+    /*offer-prod*/
+    .offer-prod{
+        text-align: center;
+    }
+
+    .offer-prod .btn{
+        width: 100%;
+    }
+
+    /*offer-timing*/
+    .timer .col-md-4{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .offer-timing h5{
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+    
+}
+
+.offer{
+    /*Google fonts*/
+    font-family: 'Mitr', sans-serif;
+}
+
+body{
+    /*Google fonts*/
+    font-family: 'Quantico', sans-serif;
+}

@@ -1,0 +1,177 @@
+/*---page layout configuration---*/
+/*remove container's left & right padding*/
+.container-xl
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*Space between every section*/
+section
+{
+    padding: 0px 15px;
+    padding-top: 100px;
+}
+
+/*---Cart---*/
+.cart .carditem
+{
+    border-radius: 10px;
+}
+
+/*cart-items*/
+.cart-items .hr
+{
+    margin: 0;
+}
+
+.cart-items img
+{
+    background-color: #EAEDED;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.item
+{
+    padding: 2rem;
+}
+
+.item input
+{
+    text-align: center;
+    width: 50px;
+    border-radius: 0px;
+    border: none;
+}
+
+.item #qty{
+    background-color: transparent;
+}
+
+
+.item input::-webkit-outer-spin-button, .item input::-webkit-inner-spin-button 
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.prod-qty .minus-btn
+{
+    border-radius: 10px;
+    background-color: #EC7063 ;
+    margin-right: 0px;
+}
+.prod-qty .plus-btn
+{
+    border-radius: 10px;
+    background-color: #5499C7;
+    margin-right: 0px;
+}
+
+/*Summary*/
+.summary .card-body a
+{
+    text-decoration: none;
+}
+
+/*Upsales*/
+section .upsales
+{
+    padding-bottom: 100px;
+}
+
+.upsales .card
+{
+    border: none;
+    text-align: center;
+}
+
+.upsales .card img
+{
+    height: 250px;
+    object-fit: contain;
+}
+
+.upsales .img-wrapper
+{
+    border-radius: 15px;
+    background-color: #EBEFF1 ;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.upsales .card button
+{
+    width: 100%;
+}
+
+.upsales .row
+{
+    margin-top: 20px;
+}
+
+@media (max-width: 992px) {
+        /*Summary*/
+        .summary
+        {
+            margin-top: 50px;   
+        }
+    
+        /*upsales*/
+        .upsales .prod
+        {
+            margin-top: 25px;
+        }
+
+}
+@media (min-width: 768px) {
+    .remove-prod button
+    {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 767px) {   
+    .cart-items
+    {
+        text-align: center;
+    }
+
+    .cart-items img
+    {
+        background-color: transparent;
+    }
+
+    .prod-qty
+    {
+        justify-content: center;
+    }
+
+    .prod-desc,.prod-qty,.prod-price,.remove-prod
+    {
+        margin-top: 25px;
+    }
+
+    .remove-prod a
+    {
+        display: none;
+    }
+
+    .remove-prod button
+    {
+        width: 100%;
+    }
+
+    .upsales .row h5
+    {
+        text-align: center;
+    }
+
+    .cart-items .card,.summary .card
+    {
+        margin: 0px 20px;
+    }
+
+}

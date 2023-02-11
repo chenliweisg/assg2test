@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <title>Homepage EcommercePhone</title>
+  </head>
+  <body>
+
+    <!--Navbar-->
+    <nav class="bg-dark">  
+      <div class="container-xl">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+          <a class="navbar-brand" href="index.html"><img src="logo.png" width="48" alt="Logo"> LWBD</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>       
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="shop.html">Products</a>
+              </li>         
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="nav-item active">
+                <a class="nav-link" href="login.html" id="login"><i class="fa-solid fa-right-to-bracket mr-2"></i>Login</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping mr-2"></i>Cart</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>    
+    </nav>
+    
+    <!--Header-->
+    <header>
+        <div class="container-xl">
+        <h3 class="text-center">What are you looking for?</h3>
+          <div class="row input-group">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" id="search-bar">
+          </div>
+        </div>
+
+        <div class="container-xl">
+          <div id="filter-container" class="row">
+            <div class="select-filter col-md-6 col-lg-3">
+              <div class="select">
+                <span class="selected">Products</span>
+                <div class="caret"></div>
+              </div>
+              <ul class="menu">
+                <li class="list-selected" id="filterPhones">Phones</li>
+                <li class="" id="filterAccessories">Accessories</li>
+              </ul>
+            </div>
+      
+            <div class="select-filter col-md-6 col-lg-3">
+              <div class="select">
+                <span class="selected">Price range</span>
+                <div class="caret"></div>
+              </div>
+              <ul class="menu">
+                <li class="list-selected" id="pricerange">All price range</li>
+                <li class="" id="100to300">$100-$300</li>
+                <li class="" id="300to500">$300-$500</li>
+                <li class="" id="500to700">$500-$700</li>
+                <li class="" id="700to900">$700-$900</li>
+                <li class="" id="more900">more than $900</li>
+              </ul>
+            </div>
+      
+            <div class="select-filter col-md-6 col-lg-3">
+              <div class="select">
+                <span class="selected">Brands</span>
+                <div class="caret"></div>
+              </div>
+              <ul class="menu">
+                <li class="list-selected" id="allbrands">All brands</li>
+                <li class="" id="apple">Apple</li>
+                <li class="" id="xiaomi">Xiaomi</li>
+                <li class="" id="google">Google</li>
+                <li class="" id="others">Others</li>
+              </ul>
+            </div>
+      
+            <div class="select-filter col-md-6 col-lg-3">
+              <div class="select">
+                <span class="selected">Reviews</span>
+                <div class="caret"></div>
+              </div>
+              <ul class="menu">
+                <li class="list-selected" id="reviews">Reviews</li>
+                <li class="" id="3stars">3</li>
+                <li class="" id="4stars">4</li>
+                <li class="" id="5stars">5</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <!--Search filters-->
+    
+
+    <!--Products-->
+    <div class="container-xl">
+    <div id="products">
+
+    </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+      <div class="footer container-xl">
+        <div class="row">
+          <div class="category col-md-4">
+            <h6 class="text-uppercase fw-bold">Online Shop</h6>
+            <p><a href="shop.html">Product</a></p>
+          </div>
+          <div class="rewards col-md-4">
+            <h6 class="text-uppercase fw-bold">Reward games</h6>
+            <p><a href="#">Lucky Wheel</a></p>
+            <p><a href="#">Timer game</a></p>
+          </div>
+          <div class="social-media col-md-4">
+            <h6 class="text-uppercase fw-bold">Follow Us</h6>
+            <a class="mb-md-3" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a class="mb-md-3" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            <a class="mb-md-3" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a class="mb-md-3" href="https://github.com/timemachine4312/PhoneEcommerce"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!--Jquery CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!--owl carousel min.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--home.js-->
+    <script src="shop.js"></script>
+
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
